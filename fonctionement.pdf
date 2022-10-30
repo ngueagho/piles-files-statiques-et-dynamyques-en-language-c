@@ -1,0 +1,39 @@
+Pile et File
+
+1----->Les fichiers contenuent
+    -Les fichiers d’entête pile.h, file.h
+    -Les fichiers des fonctions pile.c, file.c
+    -Le fichier du programme principal main.c
+    -makefile pour l’exécution du programme
+    la taille des tableaux est fixe à 05 dans les versions des piles et files statiques.
+A- Les piles (statique et dynamique)
+    Pour les versions statique et dynamique des piles, j' effectuerai les simulations suivantes en affichant
+    toute la pile après chacune des opérations:
+
+    1- dépiler(), dépiler(), empiler (1), empiler(2), empiler(3), dépiler(), empiler(4), empiler(5),
+        dépiler(), empiler(6), empiler(7), empiler(8), empiler(9), empiler(10), dépiler()
+    2- Qu’est-ce qu’on a au sommet de la pile à la fin ?
+    3- Combien de fois est-ce que dépiler() ne s’exécute pas normalement ?
+    4- Combien de fois est-ce que empiler() ne s’exécute pas normalement ?
+
+
+B- Les files (statique et dynamique)
+    Pour les versions statique et dynamique des files, j'effectuerai les simulations suivantes en affichant
+    toute la file après chacune des opérations :
+
+
+    1- défiler(), défiler(), enfiler(1), enfiler(2), enfiler(3), défiler(), enfiler(4), enfiler(5), défiler(),
+        enfiler(6), enfiler(7), enfiler(8), enfiler(9), enfiler(10), défiler()
+    2- Qu’est-ce qu’on a au sommet de la file à la fin ?
+    3- Qu’est-ce qu’on a en queue de file à la fin ?
+    4- Combien de fois est-ce que défiler() ne s’exécute pas normalement ?
+    5- Combien de fois est-ce que enfiler() ne s’exécute pas normalement ?
+    6- Quels sont les indices de début et de fin de file dans la version statique à la fin de la
+    séquence des opérations ?
+
+
+Le fichier main.c contient le programme principal qui permet de réaliser toutes les opérations
+    attendues en A et en B.
+Après chaque opération réalisée, le programme vous informe (message à l’écran).
+Après chaque sous-section (A.1 (pile statique), A.2 (pile dynamique), B.1 (file statique), B.2 (file
+dynamique), je mettrai un séparateur qui peut être « \n### ... ###\n » (ligne pleine de #).
